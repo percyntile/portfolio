@@ -3,9 +3,9 @@ FROM PortfolioProject..CovidDeaths$
 WHERE continent IS NOT NULL
 ORDER BY 3, 4
 
---SELECT *
---FROM PortfolioProject..CovidVaccinations$
---ORDER BY 3, 4
+SELECT *
+FROM PortfolioProject..CovidVaccinations$
+ORDER BY 3, 4
 
 --Data used:
 SELECT location, date, total_cases, new_cases, total_deaths, population
